@@ -28,7 +28,11 @@ const vehicleSchema = mongoose.Schema({
         type:Number,
         required:true
     },
-    mode:String
+    mode:String,
+    avl_status:{
+        type:Boolean,
+        required:true
+    }
 })
 
 const Vehicle = mongoose.model('Vehicle',vehicleSchema)

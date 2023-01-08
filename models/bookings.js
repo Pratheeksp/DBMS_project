@@ -16,6 +16,10 @@ const bookingSchema = mongoose.Schema({
     to_date:{
         type: String,
         required: true
+    },
+    pickup:{
+        type: String,
+        required:true
     }
 })
 

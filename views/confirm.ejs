@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Status</title>
+        <link rel="stylesheet" href="/confirmation.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="confirm">
+                <h1>Thank You For Choosing Us</h1>
+                <p>User email_id: <%=newBook.email_id%> </p>
+                <p>Selected Brand: <%=car.brand %> </p>
+                <p>Selected Model: <%=car.vehicle_name %> </p>
+                <p>Type: <%=car.type%> </p>
+                <p>RegNo: <%=car.reg_no%> </p>
+                <p>Booking ID: <%=car._id %> </p>
+                <p>From_date : <%=newBook.from_date %> </p>
+                <p>To_date : <%=newBook.to_date %> </p>
+                <p>Documents to be provided at the time pick up</p>
+                Adhaar Card<br>Driver License<br><br><br>
+                <p><strong>NOTE:</strong><br>Inappropriate information can lead to on spot cancellation of the booked car<br><br>
+                A Security deposit of 5000/- is issued for the car safety and will be debited back if the car returns in intact state</p><br><br>
+                <strong><center style="color: red;">save the page and reproduce the same to get the booked car<br>(ctrl+s)</center></strong><br><br><br>
+                <button><a href="/home">Continue exploring</a></button>&emsp;&emsp;&emsp;&emsp;&emsp;
+                <button><a href="/login">LogOut</a></button>
+            </div>
+        </div>
+    </body>
+</html>
