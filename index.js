@@ -47,7 +47,7 @@ app.post('/login',async(req,res)=>{
       res.redirect('/home')
       console.log(user)
     }else{
-      res.send("Invalid!!! Email or password is incorrect")
+      res.render('wrong') 
     }
 })
 

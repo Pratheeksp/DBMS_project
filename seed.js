@@ -33,7 +33,7 @@ async function main() {
 
 // User.insertMany(user)
 
-const vehicle_info = [
+// const vehicle_info = [
   //   {
   //       reg_no: 'KA 18 V2002',
   //       brand:'Mahindra',
@@ -164,35 +164,35 @@ const vehicle_info = [
   //   mode:'Manual',
   //   avl_status: false
   // }
-    {
-        reg_no: 'KA 51 H7855',
-        brand:'Hero',
-        vehicle_name: 'Splender',
-        fuel_type: 'Petrol',
-        image:'https://bd.gaadicdn.com/processedimages/hero-motocorp/hero-motocorp-splendor/source/hero-motocorp-splendor5ff41dc3613a0.jpg',
-        type:'2-wheeler',
-        mileage:60,
-        price:150,
-        seat:2,
-        mode:'Manual',
-        avl_status: true
-    },
-    {
-      reg_no: 'KA 13 H7846',
-      brand:'Bajaj',
-      vehicle_name: 'NS 200',
-      fuel_type: 'Petrol',
-      image:'https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20171003052007_Pulsar-NS200-ABS-launch.jpg&w=700&q=90&c=1',
-      type:'2-wheeler',
-      mileage:45,
-      price:200,
-      seat:2,
-      mode:'Manual',
-      avl_status: true
-  }
-]
+//     {
+//         reg_no: 'KA 51 H7855',
+//         brand:'Hero',
+//         vehicle_name: 'Splender',
+//         fuel_type: 'Petrol',
+//         image:'https://bd.gaadicdn.com/processedimages/hero-motocorp/hero-motocorp-splendor/source/hero-motocorp-splendor5ff41dc3613a0.jpg',
+//         type:'2-wheeler',
+//         mileage:60,
+//         price:150,
+//         seat:2,
+//         mode:'Manual',
+//         avl_status: true
+//     },
+//     {
+//       reg_no: 'KA 13 H7846',
+//       brand:'Bajaj',
+//       vehicle_name: 'NS 200',
+//       fuel_type: 'Petrol',
+//       image:'https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20171003052007_Pulsar-NS200-ABS-launch.jpg&w=700&q=90&c=1',
+//       type:'2-wheeler',
+//       mileage:45,
+//       price:200,
+//       seat:2,
+//       mode:'Manual',
+//       avl_status: true
+//   }
+// ]
 
-Vehicle.insertMany(vehicle_info)
+// Vehicle.insertMany(vehicle_info)
 
 // const booking = [
 //     {
